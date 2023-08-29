@@ -37,21 +37,20 @@ app.get('/',(req,res)=>{
 
 
 app.post('/inscription',(req,res)=>{
-    let id =uuid.v4()
+    let id =uuid.v4()='pmp'
     let nom=req.body.nom
     let prenom=req.body.prenom
     let email=req.body.email
     let motdepasse=req.body.motdepasse
-    let numero=req.body.numero
     req.getConnection((error,connection)=>{
         if(error){
-            res.status(500).send('erreur de connection avec la db')
+            res.status(500).json('erreur de connection avec la db')
         }else{
-            const query = `INSERT INTO utilisateur(id_user, Nom, Prenom, Email, Motdepasse, Numero) VALUES (?, ?, ?, ?, ?, ?)`;
-            connection.query(query,[id,nom,prenom,email,motdepasse,numero],(error,resultat)=>{
+            const query = `INSERT INTO utilisateur(id_user, Nom, Prenom, Email, Motdepasse) VALUES (?, ?, ?, ?, ?)`;
+            connection.query(query,[id,nom,prenom,email,motdepasse],(error,resultat)=>{
                 if(error){
-                    res.status(404).send(error)
-                    id =uuid.v4()
+                    res.status(200).json(error)
+                    //id =uuid.v4()
                 }else{
                     //res.redirect('/')
                 }
