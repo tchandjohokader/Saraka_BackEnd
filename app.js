@@ -3,14 +3,18 @@ const app =express()
 const uuid =require('uuid');
 const date = require('date-and-time');
 const redirectify = require('redirectify');
+const bodyParser = express.json;
 const mysql =require('mysql')
 const mysqlconnection =require('express-myconnection');
 require('dotenv').config({path:'./src/config/.env'})
 const db=require('./src/config/db')
+const cors = require('cors');
 let PORT=process.env.PORT || 5000
 
+app.use(bodyParser())
+app.use(cors())
 app.use(mysqlconnection(mysql,db.donnedeconnection,'pool'))
-app.use(express.urlencoded({extended:true}))
+app.use(express.urlencoded({extended:false}))
 
 //recuperation db
 app.get('/',(req,res)=>{
@@ -56,9 +60,9 @@ app.post('/inscription',(req,res)=>{
     })
 })
 //connection
-app.get('/connection',(req,res)=>{
-    let email=req.body.email='marie@example.com'
-    let motdepasse=req.body.motdepasse='motdepasse1'
+app.post('/connection',(req,res)=>{
+    let email=req.body.email
+    let motdepasse=req.body.motdepasse
     req.getConnection((error,connection)=>{
         if (error) {
             res.status(404).send('erreur de connection avec la db')
@@ -67,7 +71,8 @@ app.get('/connection',(req,res)=>{
                 if(error){
                     res.status(404).send('erreur de commande')
                 }else{
-                    resultat.length==0? res.status(401).send('email ou mot de passe incorrecte'):res.status(200).send('connection')
+                    resultat.length ===0? res.status(400).send('email ou mot de passe incorrecte'):res.status(200).send('connection')
+                    console.log(resultat.length)
                 }
             })
         }
