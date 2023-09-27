@@ -4,13 +4,27 @@ const puppeteer =require('puppeteer');
   const browser = await puppeteer.launch({headless: 'new' });
   const page = await browser.newPage();
   await page.goto('https://www.goafricaonline.com/ci/annuaire/organisations-non-gouvernementales-ong#google_vignette');
+  //const searchResultSelector = '#company-581932 > div.flex.w-full > div > div:nth-child(1) > div.flex-1 > h2 > a';
 
-  const searchResultSelector = '#company-581932 > div.flex.w-full > div > div:nth-child(1) > div.flex-1 > h2 > a';
+const y =await page.evaluate(() => {
+    let e=[];
+    let  articles = document.querySelectorAll('article');
+    articles.forEach(el=>{
+        e.push(el.id)
+    })
+    return e
+  });
+  console.log(y)
+})();
 
-  //await page.click('#dismiss-button')
+  /*.then(() => {
+    console.log('Clicked the first article.');
+  })
+  .catch((error) => {
+    console.error('error');
+  });*/
 
-  await page.click(searchResultSelector);
-  const fullTitle = await page.evaluate(()=>{
+ /* const fullTitle = await page.evaluate(()=>{
     let elt=[];
     let description=document.querySelector('#short-description').textContent.trim();
     let nom= document.querySelector("#goafrica-main-container > div > div.boxify.rounded-none.t\\:rounded-lg.border-l-0.border-r-0.t\\:border-l.t\\:border-r.mt-\\[80px\\] > div > div.px-10.mt-8.flex.flex-col.flex-wrap > div > div.w-full.t\\:w-auto.t\\:flex-1.mb-8.flex.flex-col.gap-6 > h1").textContent.trim();
@@ -21,6 +35,5 @@ const puppeteer =require('puppeteer');
         numero:numero
     })
     return elt
-    });
-  console.log(fullTitle)//fullTitle.trim());*/
-})();
+    });*/
+  //console.log(y)//fullTitle.trim());*/
