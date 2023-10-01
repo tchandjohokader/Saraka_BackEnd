@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 (async () => {
-    const browser = await puppeteer.launch({ headless: 'false' });
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
     await page.goto('https://www.goafricaonline.com/ci/annuaire/organisations-non-gouvernementales-ong#google_vignette'); 
     const idarticle=await page.evaluate(() => {
@@ -12,7 +12,7 @@ const puppeteer = require('puppeteer');
         return id
     })
         let data=[]
-        for(const id of idarticle){
+        for(const id of idarticle.splice(1,)){
         const selector=`#${id} > div.flex.w-full > div > div:nth-child(1) > div.flex-1 > h2 > a`
         await page.waitForSelector(selector);
         await page.click(selector)
@@ -31,8 +31,10 @@ const puppeteer = require('puppeteer');
             return element
         })
         data.push(elements)
-        console.log(data)
-        await page.goBack();
+        console.log(data);
+        setTimeout(async ()=>{
+            await page.goBack();
+        },1000)
         }
 })();
 
