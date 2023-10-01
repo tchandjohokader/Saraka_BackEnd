@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer');
             e.push(el.id)
         })
         return e})
-        em=e.splice(1,3);
+        em=e.splice(1,);
         //console.log(em)
         for(const e of em){
         const selector=`#${e} > div.flex.w-full > div > div:nth-child(1) > div.flex-1 > h2 > a`
