@@ -1,1 +1,0 @@
-document.querySelector("#company-579502 > div.block.t\\:hidden.text-gray-700.text-13")
