@@ -12,18 +12,6 @@
     "address": "2 PlateauxCocodyAbidjan - Côte d’Ivoire"
   },
   {
-    "nom": "",
-    "description": "",
-    "numero": "",
-    "address": ""
-  },
-  {
-    "nom": "ACONDA VS CI",
-    "description": "",
-    "numero": "(+225)2722508140",
-    "address": "Rue L84, Villa N°15 (non loin du complexe Ferrari) - Angré 8è trancheCocody - 23 BP 2485 Abidjan 23Abidjan - Côte d’Ivoire"
-  },
-  {
     "nom": "ACTION ENVIRONNEMENT PLUS",
     "description": "Sensibilisation, Education et Action pour un Développement Durable en Côte d'Ivoire.\nAgir pour un environnement sain et un cadre de vie toujours amélioré.",
     "numero": "(+225)0707420393",
@@ -42,70 +30,16 @@
     "address": "Angré chateauCocodyAbidjan - Côte d’Ivoire"
   },
   {
-    "nom": "ACTION POUR L'AVENIR DE L'ENVIRONNEMENT NATUREL-AAEN CI",
-    "description": "",
-    "numero": "(+225)0102580227",
-    "address": "Feh KesséBingerville - Côte d’Ivoire"
-  },
-  {
     "nom": "ACTION VIE ET DEVELLOPEMENT",
     "description": "ONG œuvrant pour l' agriculture",
     "numero": "(+225)0757029252",
     "address": "DananeDanané - Côte d’Ivoire"
   },
   {
-    "nom": "ADAFO (ANTENNE DE DEVELOPPEMENT DE L'AFRIQUE DE FRANCOPHONE OCCIDENTALE)",
-    "description": "",
-    "numero": "(+225)2721230408",
-    "address": "En face de la cité SIR - RemblaisKoumassi - 10 BP 1323 Abidjan 10Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "ADJL CI (AGIR POUR LA DEMOCRATIE LA JUSTICE ET LA LIBERTE EN COTE D'IVOIRE)",
-    "description": "Démocratie\nJustice\nDroits de l'Homme",
-    "numero": "(+225)2520000943",
-    "address": "Rue des Jardins, residence AZIZ - Deux-plateaux - VallonCocody - 01 BP 10879 Abidjan 01Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AFJCI (ASSOCIATION DES FEMMES JURISTES DE LA COTE D'IVOIRE)",
-    "description": "Droits, citoyenneté, Démocratie",
-    "numero": "(+225)2720322824",
-    "address": "Rue des Chemins de Fer, A l'Ouest du Siège de la SIPFPlateau - 01 BP 1758 Abidjan 01Abidjan - Côte d’Ivoire"
-  },
-  {
     "nom": "AFRICA SAVES AFRICA",
     "description": "",
     "numero": "(+225)0777433027",
     "address": "Imm. pharmacie de koumassiAbidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AFRICA TRANSFORMATION INITIATIVES",
-    "description": "AFRICA TRANSFORMATION INITIATIVES est une organisation chrétienne",
-    "numero": "(+225)0708305385",
-    "address": "Rue Ministre, à 100m de MACI CANADA, non loin du Supermarché CDCI - Riviera PalmeraieCocody - 03 BP 731 Cidex 03Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AFRICABEAUTIES COTE D'IVOIRE",
-    "description": "",
-    "numero": "(+225)0102763191",
-    "address": "Bvd cardePlateauAbidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AFRIKI-PAPYRUS",
-    "description": "Promotion de l'education, la paix et le développement Durable à travers l'Art Livresque et l'oralité africaine.",
-    "numero": "(+225)0757367081",
-    "address": "kennedyBouaké - Côte d’Ivoire"
-  },
-  {
-    "nom": "AFRIQUE NATURE INTERNATIONAL",
-    "description": "Conservation de la nature et de ses ressources",
-    "numero": "(+225)2720338130",
-    "address": "Rue Daudet, Imm. Anyaman, A côté de la BADPlateau - 01 BP 4257 Abidjan 01Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AI-BRICS",
-    "description": "",
-    "numero": "(+225)0101074110",
-    "address": "Non loin du Maquis Delice - Niangon NordYopougonAbidjan - Côte d’Ivoire"
   },
   {
     "nom": "AICHA ONG",
@@ -115,56 +49,8 @@
   },
   {
     "nom": "AICS (ALLIANCE IVOIRIENNE POUR LA COMPASSION ET LA SOLIDARITE)",
-    "description": "L'Organisation non gouvernementale  A.I.C.S  a pour objet :    \n-   venir en aide à l'enfance en difficulté ; \n-   promouvoir les droits et intérêts des enfants ;\n-   apporter aide et assistance aux commerçants œuvrant dans le \n     vivrier en vue de leur autonomisation ;\n-   participer à la lutte contre le VIH-SIDA à travers la sensibilisation ;\n-   contribuer à la protection de l'environnement ;.....",
+    "description": "L'Organisation non gouvernementale  A.I.C.S  a pour objet :    \n-   venir en aide à l'enfance en difficulté ; \n-   promouvoir les droits et intérêts des enfants ;\n-   apporter aide et assistance aux commerçants œuvrant dans le \n     vivrier en vue de leur autonomisation ;\n-   participer à la lutte contre le VIH-SIDA à travers la sensibilisation ;\n-   contribuer à la protection de l'environnement ",
     "numero": "(+225)2721251365",
     "address": "Avenue 2 SICOGI-MAIRIE, Immeuble la Tour 5ème  étage à droiteTreichville - 01 BP 13098 Abidjan 01Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AIDE",
-    "description": "",
-    "numero": "(+225)2722414290",
-    "address": "Rue des Jardins, face à l'Ambassade du Benin - Deux-plateaux - VallonCocodyAbidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AIDE INTERNATIONALE POUR LE DEVELOPPEMENT DURABLE",
-    "description": "L'ONG AIDD fait la promotion des ODD dont l'agriculture.\nPour ce faire, elle appui les groupements de femmes et les Organisations Paysannes (OP) dans la production de riz dans le département de Daloa.",
-    "numero": "(+225)077913868",
-    "address": "Quartier tazibouo-universitéBP 1623Daloa - Côte d’Ivoire"
-  },
-  {
-    "nom": "AIESEC ABIDJAN SUD",
-    "description": "",
-    "numero": "(+225)2721361811",
-    "address": "Grand marché, immeuble SGBCI 2e étageKoumassiAbidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AIP (ASSOCIATION IVOIRIENNE POUR LE PROGRES)",
-    "description": "Développement, Droits de l'Homme",
-    "numero": "(+225)0707124375",
-    "address": "-Bouaké - Côte d’Ivoire"
-  },
-  {
-    "nom": "ALLIANCE COTE D'IVOIRE",
-    "description": "Soutien aux communautés dans le domaine\ndu SIDA",
-    "numero": "(+225)2722528570",
-    "address": "II Plateaux - Angré 7è trancheCocody - 08 BP 2046 Abidjan 08Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AMNESTY INTERNATIONAL",
-    "description": "Droit Justice",
-    "numero": "(+225)0758939395",
-    "address": "Angré Carrefour les Oscars - Deux-plateaux - Les OscarsCocody - 04 BP 895 Abidjan 04Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "APDH (ACTION POUR LA PROMOTION ET LA DEFENSE DES DROITS DE L'HOMME)",
-    "description": "Droits de l'Homme, Santé de la reproduction, démocratie, bonne gouvernance, etc.",
-    "numero": "(+225)2720375655",
-    "address": "Imm. mistral,  Batiment B, 2ème étage, Porte 56 - 80 logementsAdjamé - 08 BP 360 Abidjan 08Abidjan - Côte d’Ivoire"
-  },
-  {
-    "nom": "AREOS (AGENCE REGIONALE D'ECOUTE ET D'ORGANISATION SOCIALE)",
-    "description": "L'AREOS, organisation à but non lucratif, constitue un centre d’écoute pour un apport d’aides humanitaires; pour un appui aux personnes défavorisées (personnes âgées, femmes et enfants vulnérables) en situation de détresse; et pour la formation, l’orientation et le coaching des personnes de tout genre pour leur bienêtre et leur insertion sociale.",
-    "numero": "(+225)0709799804",
-    "address": "KoulangoTanda - Côte d’Ivoire"
   }
 ]
