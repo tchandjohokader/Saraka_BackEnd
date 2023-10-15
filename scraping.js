@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
-(async () => {
+const fs = require('fs');
+async function scraping () {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
     await page.goto('https://www.goafricaonline.com/ci/annuaire/organisations-non-gouvernementales-ong#google_vignette'); 
@@ -31,11 +32,32 @@ const puppeteer = require('puppeteer');
             return element
         })
         data.push(elements)
-        console.log(data);
         setTimeout(async ()=>{
             await page.goBack();
         },1000)
         }
-})();
+        return data
+};
+
+/*(async () => {
+    const a = await scraping();
+// Convertir les données en format JSON
+const jsonData = JSON.stringify(a, null, 2); // Le deuxième argument (null) et le troisième argument (2) sont pour l'espacement et la mise en forme du JSON.
+
+// Chemin du fichier où vous souhaitez écrire les données JSON
+const filePath = 'data.json';
+
+// Écrire les données JSON dans le fichier
+fs.writeFile(filePath, jsonData, 'utf8', (err) => {
+  if (err) {
+    console.error('Erreur lors de l\'écriture du fichier :', err);
+  } else {
+    console.log('Données JSON ont été écrites dans le fichier avec succès.');
+  }
+});
+
+  })();*/
 
 
+
+  
